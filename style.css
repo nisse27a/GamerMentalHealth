@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --main-color: #02bb4e;
+  --secondary-color: #3be447;
+  --color3: #e9d0a5;
+  --color4: #f2433e;
+  --color5: #4e1320;
+}
+
+/* Navbar */

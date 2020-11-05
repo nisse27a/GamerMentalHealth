@@ -5,10 +5,53 @@
 
 :root {
   --main-color: #02bb4e;
-  --secondary-color: #3be447;
+  --secondary-color: #1e1e31;
   --color3: #e9d0a5;
-  --color4: #f2433e;
+  --color4: #3be447;
   --color5: #4e1320;
 }
 
 /* Navbar */
+header {
+  position: sticky;
+  top: 0;
+}
+
+#main-logo {
+  width: 9%;
+  height: 9%;
+  flex-grow: 1;
+}
+
+nav {
+  background-color: var(--secondary-color);
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  line-height: 4.5;
+  text-decoration: none;
+  color: var(--color3);
+}
+
+nav ul li a:hover {
+  background-color: var(--color5);
+  color: var(--color3);
+}
+
+#blank {
+  flex-grow: 6;
+}
+
+.item {
+  flex-grow: 3;
+}
+
+/*Background image*/

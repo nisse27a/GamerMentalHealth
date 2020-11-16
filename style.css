@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
 * {
   padding: 0;
   margin: 0;
+  font-size: 1rem;
+  font-family: "Questrial", sans-serif;
 }
 
 :root {
@@ -11,6 +15,10 @@
   --color5: #4e1320;
 }
 
+body {
+  scrollbar-color: var(--main-color) var(--color5);
+}
+
 /* Navbar */
 header {
   position: sticky;
@@ -19,9 +27,7 @@ header {
 }
 
 #main-logo {
-  width: 9%;
-  height: 9%;
-  flex-grow: 1;
+  height: 11vh;
 }
 
 nav {
@@ -33,6 +39,7 @@ nav ul {
   flex-wrap: wrap;
   list-style: none;
   text-align: center;
+  padding-left: 2vh;
 }
 
 nav ul li a {
@@ -55,30 +62,14 @@ nav ul li a:hover {
   flex-grow: 3;
 }
 
-/*Infobar*/
-/* 
-.bar {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+::-webkit-scrollbar {
+  width: 0.5rem;
 }
-
-.bar {
-  height: 20vh;
-  color: var(--color3);
+::-webkit-scrollbar-track {
   background-color: var(--secondary-color);
 }
-.bar section {
-  display: grid;
-  grid-template-columns: 5;
-  grid-template-rows: 5;
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 20px;
+  border: 2px solid var(--secondary-color);
 }
-
-.bar section h1 {
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
-
-.bar section p {
-  grid-column: 1/5;
-  grid-row: 1/5;
-} */

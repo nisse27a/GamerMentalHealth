@@ -23,6 +23,7 @@
   background-color: #1e1e31;
   border-radius: 20px;
   color: var(--color3);
+  padding-top: 4vh;
 }
 
 #background-image-main ul {
@@ -61,7 +62,10 @@ div + h1 {
 
 #intro {
   display: grid;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   grid-template-columns: 1fr 5fr 1fr 5fr 1fr;
+  line-height: 1.5;
 }
 #col1 {
   grid-column: 2/3;
@@ -78,8 +82,7 @@ div + h1 {
   background-color: var(--secondary-color);
 }
 .bar section {
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+  padding: 4vh 0;
 }
 .bar #info1 {
   grid-column: 2/3;

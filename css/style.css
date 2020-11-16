@@ -27,8 +27,8 @@ header {
 }
 
 #main-logo {
+  width: 24vh;
   height: 11vh;
-  width: 23vh;
 }
 
 nav {

@@ -9,8 +9,8 @@
 #background-image-main {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
-  background-image: url(media/bakground-image-main.jpg);
+  grid-template-rows: repeat(5, 1fr);
+  background-image: url(media/bakground-image-main.webp);
   height: auto;
   width: auto;
   background-size: cover;

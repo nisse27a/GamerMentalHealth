@@ -12,6 +12,7 @@
   grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
   background-image: url(media/bakground-image-main.jpg);
   height: auto;
+  width: auto;
   background-size: cover;
   background-position: center;
 }

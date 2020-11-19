@@ -11,7 +11,7 @@
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(5, 1fr);
   background-image: url(media/background-main.webp);
-  height: auto;
+  height: 80vh;
   width: auto;
   background-size: cover;
   background-position: center;
@@ -24,7 +24,7 @@
   background-color: #1e1e31;
   border-radius: 20px;
   color: var(--color3);
-  padding-top: 4vh;
+  padding: 6vh;
 }
 
 #background-image-main ul {
@@ -44,9 +44,7 @@
   text-align: center;
   line-height: 4.5;
   background-color: var(--color4);
-  border-style: solid;
-  border-width: 2px;
-  border-color: var(--main-color);
+  border: 2px solid var(--main-color);
   border-radius: 100px;
 }
 
@@ -59,38 +57,4 @@ div + h1 {
   line-height: 2;
   color: var(--color5);
   background-color: var(--main-color);
-}
-
-#intro {
-  display: grid;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  grid-template-columns: 1fr 5fr 1fr 5fr 1fr;
-  line-height: 1.5;
-}
-#col1 {
-  grid-column: 2/3;
-}
-
-#col2 {
-  grid-column: 4/5;
-}
-
-.bar {
-  display: grid;
-  grid-template-columns: 1fr 4fr 1fr 4fr 1fr 4fr 1fr;
-  color: var(--color3);
-  background-color: var(--secondary-color);
-}
-.bar section {
-  padding: 4vh 0;
-}
-.bar #info1 {
-  grid-column: 2/3;
-}
-.bar #info2 {
-  grid-column: 4/5;
-}
-.bar #info3 {
-  grid-column: 6/7;
 }

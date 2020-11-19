@@ -1,0 +1,52 @@
+:root {
+  --main-color: #02bb4e;
+  --secondary-color: #1e1e31;
+  --color3: #e9d0a5;
+  --color4: #3be447;
+  --color5: #4e1320;
+}
+#factbox1 {
+  height: 60vh;
+  width: auto;
+  background-image: url(media/wasd.jpg);
+  background-size: 100vw 80vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-template-rows: repeat(3, 3fr);
+}
+#factbox1 section {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+  background: rgb(50, 95, 188);
+  background: linear-gradient(
+    250deg,
+    rgba(50, 95, 188, 1) 0%,
+    rgba(0, 9, 49, 1) 100%
+  );
+  border: 2px solid var(--secondary-color);
+  border-radius: 20px;
+}
+#factbox2 {
+  height: 60vh;
+  width: auto;
+  background-image: url(media/ps4console.jpg);
+  background-size: 100vw 120vh;
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+#factbox2 section {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+  background: rgb(137, 78, 196);
+  background: linear-gradient(
+    45deg,
+    rgba(137, 78, 196, 1) 11%,
+    rgba(193, 163, 224, 1) 89%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border: 2px solid var(--secondary-color);
+  border-radius: 20px;
+}

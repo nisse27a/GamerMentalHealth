@@ -24,6 +24,7 @@ header {
   position: sticky;
   top: 0;
   font-family: "Bebas Neue", cursive;
+  z-index: 1;
 }
 
 #main-logo {
@@ -37,7 +38,6 @@ nav {
 
 nav ul {
   display: flex;
-  flex-wrap: wrap;
   list-style: none;
   text-align: center;
   padding-left: 2vh;
@@ -48,6 +48,7 @@ nav ul li a {
   line-height: 4.5;
   text-decoration: none;
   color: var(--color3);
+  transition: all 200ms;
 }
 
 nav ul li a:hover {
@@ -119,13 +120,6 @@ div + h1 {
   border: 2px solid var(--secondary-color);
 }
 
-#intro {
-  display: grid;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  grid-template-columns: 1fr 5fr 1fr 5fr 1fr;
-  line-height: 1.5;
-}
 #col1 {
   grid-column: 2/3;
 }

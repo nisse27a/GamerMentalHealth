@@ -46,6 +46,7 @@
   background-color: var(--color4);
   border: 2px solid var(--main-color);
   border-radius: 100px;
+  transition: all 200ms;
 }
 
 #background-image-main ul li a:hover {
@@ -57,4 +58,12 @@ div + h1 {
   line-height: 2;
   color: var(--color5);
   background-color: var(--main-color);
+}
+
+#intro {
+  display: grid;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  grid-template-columns: 1fr 5fr 1fr 5fr 1fr;
+  line-height: 1.5;
 }

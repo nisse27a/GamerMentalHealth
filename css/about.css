@@ -1,0 +1,41 @@
+:root {
+  --main-color: #02bb4e;
+  --secondary-color: #1e1e31;
+  --color3: #e9d0a5;
+  --color4: #3be447;
+  --color5: #4e1320;
+}
+
+#aboutpageimage {
+  background-image: url(media/friends.jpg);
+  background-size: cover;
+  width: auto;
+  height: 70vh;
+  background-position: center;
+}
+
+.personal {
+  display: flex;
+  border: 3px solid var(--main-color);
+  border-radius: 10px;
+}
+
+#person1 {
+  clip-path: circle(40% at 50% 50%);
+  width: 20vw;
+  height: auto;
+}
+#person1beskrivning {
+  padding-top: 15vh;
+}
+
+#person2beskrivning {
+  padding-top: 15vh;
+  padding-left: 3vw;
+}
+
+#person2 {
+  clip-path: circle(40% at 45% 50%);
+  width: 20vw;
+  height: auto;
+}

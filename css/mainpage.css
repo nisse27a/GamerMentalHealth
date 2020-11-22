@@ -64,8 +64,14 @@ div + h1 {
 
 #intro {
   display: grid;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  grid-template-columns: 1fr 5fr 1fr 5fr 1fr;
+  padding: 2vh 1vw;
+  grid-template-columns: 5fr 5fr;
+  grid-gap: 4vw;
   line-height: 1.5;
+}
+
+@media screen and (max-width: 800px) {
+  #intro {
+    grid-template-columns: 1fr;
+  }
 }

@@ -8,7 +8,7 @@
 #factbox1 {
   height: 60vh;
   width: auto;
-  background-image: url(media/wasd.jpg);
+  background-image: url(media/wasd.webp);
   background-size: 100vw 80vh;
   display: grid;
   grid-template-columns: 1fr 2fr 3fr;
@@ -30,7 +30,7 @@
 #factbox2 {
   height: 60vh;
   width: auto;
-  background-image: url(media/ps4console.jpg);
+  background-image: url(media/ps4console.webp);
   background-size: 100vw 120vh;
   display: grid;
   grid-template-columns: 3fr 2fr 1fr;

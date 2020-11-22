@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  background-image: url(media/background-main.jpg);
+  background-image: url(media/background-main.webp);
   height: 80vh;
   width: auto;
   background-size: cover;

@@ -12,7 +12,7 @@
   align-items: center;
   text-decoration: underline;
   color: var(--color3);
-  background-image: url(media/news.jpg);
+  background-image: url(media/news.webp);
   background-position: center;
   background-size: cover;
   height: 70vh;

@@ -16,8 +16,8 @@
 
 .personal {
   display: flex;
-  border: 3px solid var(--main-color);
-  border-radius: 10px;
+  box-shadow: 7px 15px 15px 0px rgba(0, 0, 0, 0.63);
+  margin: 4vh 1vw;
 }
 
 #person1 {

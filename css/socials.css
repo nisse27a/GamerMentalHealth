@@ -1,0 +1,57 @@
+:root {
+  --main-color: #02bb4e;
+  --secondary-color: #1e1e31;
+  --color3: #e9d0a5;
+  --color4: #3be447;
+  --color5: #4e1320;
+}
+
+#socialmedia {
+  background-image: url(media/socialmedia.jpg);
+  background-position: 50% 55%;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  color: var(--color3);
+}
+
+#socialmedia h1 {
+  font-size: 4rem;
+  background-color: var(--secondary-color);
+  padding: 3vh;
+  border-radius: 50px;
+}
+
+#socials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5vw;
+  padding: 4vh 1vw;
+  list-style: none;
+}
+
+#socials li {
+  background-color: #fff;
+  padding: 5vh;
+  border-radius: 10px;
+  box-shadow: 7px 15px 15px 0px rgba(0, 0, 0, 0.63);
+}
+
+.contact a {
+  text-decoration: none;
+  color: var(--color3);
+  line-height: 3;
+}
+
+@media screen and (max-width: 800px) {
+  #socialmedia h1 {
+    font-size: 2rem;
+  }
+  #socials {
+    grid-template-columns: 1fr;
+    margin: 2vh 1vw;
+  }
+}
